@@ -21,6 +21,14 @@ public class Template {
 		return ans;
 	}
 	
+	public static int[] toInt(String[] s) {
+		int[] ret = new int[s.length];
+		for (int i = 0; i < s.length; i++) {
+			ret[i] = Integer.parseInt(s[i]);
+		}
+		return ret;
+	}
+	
 	public static void main(String[] args) {
 		System.out.println(ans());
 	}
