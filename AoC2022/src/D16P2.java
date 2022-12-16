@@ -8,10 +8,6 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class D16P2 {
-	/* 
-	 * Gigantic ups to the problem creator. Excellent problem, lots of fun to solve.
-	 */
-	
 	private static class Valve {
 		String name;
 		int flow;
